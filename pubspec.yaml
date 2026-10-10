@@ -1,0 +1,31 @@
+name: google_maps_flutter_platform_interface
+description: A common platform interface for the google_maps_flutter plugin.
+repository: https://github.com/flutter/packages/tree/main/packages/google_maps_flutter/google_maps_flutter_platform_interface
+issue_tracker: https://github.com/flutter/flutter/issues?q=is%3Aissue+is%3Aopen+label%3A%22p%3A+maps%22
+# NOTE: We strongly prefer non-breaking changes, even at the expense of a
+# less-clean API. See https://flutter.dev/go/platform-interface-breaking-changes
+version: 2.18.0
+publish_to: none
+
+environment:
+  sdk: ^3.13.0
+  flutter: ">=3.47.0"
+
+dependencies:
+  collection: ^1.19.1
+  flutter:
+    sdk: flutter
+  plugin_platform_interface: 
+    git: https://github.com/kumsumit/plugin_platform_interface.git
+  stream_transform: ^2.1.2
+
+dev_dependencies:
+  async: ^2.13.1
+  flutter_test:
+    sdk: flutter
+  mockito: ^5.8.1
+
+topics:
+  - google-maps
+  - google-maps-flutter
+  - map
